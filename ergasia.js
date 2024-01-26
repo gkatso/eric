@@ -28,11 +28,9 @@ $(document).ready(function(){
 });
 
 function performLogin() {
-    // Add your login logic here
     var username = document.getElementById("username").value;
     var password = document.getElementById("password").value;
 
-    // Check username and password (this is just a simple example, not secure)
     if (username === "user1" && password === "user1") {
         alert("Login successful!");
         hideLoginPopup();
