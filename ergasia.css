@@ -80,12 +80,6 @@ img{
 }
 
 
-.showcase h1{
-    font-size: 5rem;
-    margin-bottom: 20px;
-    color: var(--light);
-    -webkit-text-stroke: 5px black;
-}
 
 .showcase p{
     font-size: 2rem;
