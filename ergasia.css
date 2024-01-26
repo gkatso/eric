@@ -68,7 +68,7 @@ img{
 
 .showcase {
     grid-area: showcase;
-    min-height: 300px;
+    min-height: 500px;
     background-image: url(logo5.jpg);
     background-size: auto;
     padding: 4rem;
