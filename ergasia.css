@@ -116,6 +116,22 @@ img{
     padding: 1.5rem 2rem;
     box-shadow: var(--shadow);
 }
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+  }
+  
+
+  .column {
+    flex: 50%;
+    padding: 0 4px;
+  }
+  
+  .column img {
+    margin-top: 8px;
+    vertical-align: middle;
+  }
 
 
 .portfolio1{
