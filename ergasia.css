@@ -123,29 +123,49 @@ img{
     grid-gap: 20px;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
 }
-.portfolio1 img{
-    height: 100%;
-    width: 100%;
-}
+
 
 .portfolio2{
     display: table-column-group;
     grid-gap: 20px;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
 }
-.portfolio2 img{
-    height: 100%;
-    width: 100%;
-}
+
 
 .portfolio3{
     display: table-column-group;
     grid-gap: 20px;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
 }
-.portfolio3 img{
-    height: 100%;
-    width: 100%;
+.portfolio-image {
+  width: 100%;
+  height: 200px; 
+  object-fit: cover;
+  box-shadow: var(--shadow);
+  transition: transform 0.3s ease-in-out;
+}
+
+.portfolio-image:hover {
+  transform: scale(1.1); 
+}
+
+.portfolio-image::after {
+  content: attr(alt);
+  display: block;
+  text-align: center;
+  padding: 10px;
+  background: rgba(0, 0, 0, 0.8);
+  color: var(--light);
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.portfolio-image:hover::after {
+  opacity: 1; /* Show caption on hover */
 }
 
 
