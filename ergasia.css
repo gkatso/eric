@@ -123,11 +123,19 @@ img{
     grid-gap: 20px;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
 }
+.portfolio1 img{
+    height: 100%;
+    width: 100%;
+}
 
 .portfolio2{
     display: table-column-group;
     grid-gap: 20px;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+.portfolio2 img{
+    height: 100%;
+    width: 100%;
 }
 
 .portfolio3{
@@ -135,12 +143,11 @@ img{
     grid-gap: 20px;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
 }
-
-.portfolio-image{
-    width: 100%;
+.portfolio3 img{
     height: 100%;
-    box-shadow: var(--shadow);
+    width: 100%;
 }
+
 
 footer{
     margin-top: 2rem;
